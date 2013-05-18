@@ -18,4 +18,6 @@ else
   let b:undo_ftplugin = "setl cms< com< fo< flp<"
 endif
 
+set makeprg=echo\ http://localhost:5000\ &&\ grip\ --gfm\ %:p\ 2>\ /dev/null
+
 " vim:set sw=2:
